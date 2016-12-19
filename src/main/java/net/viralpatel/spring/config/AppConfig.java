@@ -17,6 +17,7 @@ public class AppConfig extends WebMvcConfigurerAdapter {
 	//this is second commit
 	//testing
 	//modified jre settings
+	//modified to fix jre issue
 	@Bean
 	public ViewResolver viewResolver() {
 		InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
