@@ -16,6 +16,7 @@ import org.springframework.web.servlet.view.JstlView;
 public class AppConfig extends WebMvcConfigurerAdapter {
 	//this is second commit
 	//testing
+	//modified jre settings
 	@Bean
 	public ViewResolver viewResolver() {
 		InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
